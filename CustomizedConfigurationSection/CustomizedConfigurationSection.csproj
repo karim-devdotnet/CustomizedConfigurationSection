@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\ConfigElement.cs" />
+    <Compile Include="Configuration\ConfigElementsCollection.cs" />
+    <Compile Include="Configuration\ConfigSubElement.cs" />
+    <Compile Include="Configuration\ConfigSubElementsCollection.cs" />
+    <Compile Include="Configuration\CustomConfigSection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
